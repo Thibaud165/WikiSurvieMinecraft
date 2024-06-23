@@ -19,14 +19,6 @@ body {
     overflow: auto;
 }
 
-@media only screen and (max-width: 600px) {
-    .main {
-        background-image: none;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
 .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p {
     margin-left: 20px;
 }
@@ -50,26 +42,13 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 1.5rem;
+/*
+.boxed-text {
+    background-color: #949494;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 10%;
+    border-radius: 100px;
 }
-
-h2 {
-    font-size: 1.25rem;
-}
-
-h3 {
-    font-size: 1rem;
-}
-
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 1rem;
-    }
-    h2 {
-        font-size: 0.875rem;
-    }
-    h3 {
-        font-size: 0.75rem;
-    }
-}
+/*
