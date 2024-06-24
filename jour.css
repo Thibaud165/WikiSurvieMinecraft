@@ -19,11 +19,15 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    background-color: black;
+    .main {
+        background-color: black;
+    }
 }
 
 @media screen and (min-width: 600px) {
-    background-color: white;
+    .main {
+        background-color: white;
+    }
 }
 
 .main h1, h2, h3, h4, h5, h6, p {
