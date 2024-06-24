@@ -18,11 +18,11 @@ body {
     overflow: auto;
 }
 
-@media screen and (max-widht: 600px;) {
+@media screen and (max-widht: 600px) {
     background-color: black;
 }
 
-@media screen and (min-widht: 600px;) {
+@media screen and (min-widht: 600px) {
     background-color: white;
 }
 
