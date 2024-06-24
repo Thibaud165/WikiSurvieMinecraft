@@ -27,8 +27,11 @@ body {
         border: 0;
         padding: 0;
     }
+    .modeNuit {
+        margin-left: 80%;
+    }
     h1 {
-        font-height: 2px
+        font-height: 2px;
     }
 }
 
