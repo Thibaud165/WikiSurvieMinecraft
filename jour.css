@@ -12,6 +12,7 @@ body {
 }
 
 .main {
+    background-color: white;
     margin-left: 15%;
     margin-right: 15%;
     height: 100vh;
@@ -21,12 +22,6 @@ body {
 @media screen and (max-width: 600px) {
     .main {
         background-color: black;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .main {
-        background-color: white;
     }
 }
 
