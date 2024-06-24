@@ -19,6 +19,16 @@ body {
     overflow: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .main {
+        background-color: white;
+        margin-right: 0;
+        margin-left: 0;
+        border: 0;
+        padding: 0;
+    }
+}
+
 .main h1, h2, h3, h4, h5, h6, p {
     margin-left: 20px;
 }
