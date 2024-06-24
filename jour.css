@@ -1,12 +1,12 @@
 body {
     background-image: url(dirt.png);
     background-repeat: repeat;
-    margin: 10px;
-    border: 10px solid black;
-    padding: 10px;
+    margin: 10;
+    border: 10;
+    padding: 10;
     color: black;
     font-family: Arial, sans-serif;
-    min-height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -19,7 +19,7 @@ body {
     overflow: auto;
 }
 
-.main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p {
+.main h1, h2, h3, h4, h5, h6, p {
     margin-left: 20px;
 }
 
@@ -29,9 +29,10 @@ body {
     height: 50px;
     width: 50px;
     margin-left: 90%;
-    border: none;
+    border-style: none;
     cursor: pointer;
     padding: 0;
+    border: 0;
 }
 
 .titre {
